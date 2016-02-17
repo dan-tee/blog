@@ -4,13 +4,15 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Dan T.'
 SITENAME = 'dan-t.de'
-SITESUBTITLE = 'A sceptics views on data, machine learning and startups'
+SITESUBTITLE = 'a journey in data science'
 #SITEURL = 'http://dan-t.de'
 
 THEME = 'modernscientist-theme'
 SEARCH_BOX = True
 X_MIN_READ = True
 DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = [('Latest', '/index.html'),
+             ('Overview', '/archives.html'),]
 
 PATH = 'content'
 TIMEZONE = 'Europe/Berlin'
@@ -44,6 +46,7 @@ LINKS = (('Edwin Chen', 'http://blog.echen.me/'),
 SOCIAL = (('Twitter', 'https://twitter.com/Dan__Tee'),)
 
 DEFAULT_PAGINATION = 25
+TYPOGRIFY = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
