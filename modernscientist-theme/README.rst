@@ -1,6 +1,9 @@
 Octopress Theme for Pelican
 ===========================
 
+This is a customized version of the Octopress-Pelican theme, found on modernscientist.com
+and modified for dan-t.de
+
 This is a theme for `Pelican`_ that looks like `Octopress`_ default theme. I wrote this
 theme for `my personal blog`_.
 

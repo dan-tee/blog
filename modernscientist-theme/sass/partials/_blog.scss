@@ -6,8 +6,8 @@ article {
     position: relative;
     padding-top: 2em;
     padding-bottom: 1em;
-    margin-bottom: 1em;
-    background: $img-border bottom left repeat-x;
+    //margin-bottom: 1em;
+    //background: $img-border bottom left repeat-x;
     h1 {
       margin: 0;
       a { text-decoration: none;
@@ -24,9 +24,9 @@ article {
       }
     }
     @media only screen and (min-width: 768px) {
-      margin-bottom: 1.5em;
+      //margin-bottom: 1.5em;
       padding-bottom: 1em;
-      background: $img-border bottom left repeat-x;
+      //background: $img-border bottom left repeat-x;
     }
   }
   h2 {
@@ -85,7 +85,7 @@ article {
 }
 article + article {
   .blog-index & {
-    background: $img-border top left repeat-x;
+    //background: $img-border top left repeat-x;
   }
 }
 #content .blog-index {
