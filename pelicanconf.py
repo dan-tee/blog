@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Dan T.'
 SITENAME = 'dan-t.de'
-SITESUBTITLE = 'A sceptics views on data science, machine learning and startups'
+SITESUBTITLE = 'A sceptics views on data, machine learning and startups'
 #SITEURL = 'http://dan-t.de'
 
 THEME = 'modernscientist-theme'

@@ -4,7 +4,7 @@ Modified: 2016-02-17 20:00
 Tags: blogging
 Author: Daniel Thomas
 
-There are many reasons to start a blog. My idol Jeff Atwood lists very good ones in
+There are many reasons to start a blog. My idol Jeff Atwood aka Coding Horror lists very good ones in
 [how to achieve ultimate blog success in one easy step](http://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/):
 
 > Every time I wrote, I got a little better at writing.
