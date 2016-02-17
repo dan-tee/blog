@@ -694,8 +694,7 @@ font-weight:400
 
 body>nav {
 position:relative;
-background-color:#fff;
-background:#fff,#fff;
+background-color:#fafafa;
 border-top:1px solid #ababab;
 border-bottom:1px solid #ababab;
 padding-top:.35em;
