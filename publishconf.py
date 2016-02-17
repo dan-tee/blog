@@ -14,11 +14,16 @@ SITEURL = 'http://dan-t.de'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+# CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_UNIVERSAL_ANALYTICS = 'UA-73903570-1'
+
+PLUGINS += ['disqus_static']
+DISQUS_SITENAME = 'dan-t-de'
+DISQUS_SECRET_KEY = 'tEUe952AoCPMbyeUC226ImgjLSHc4ERTgm3PdPPgpaB7qCOMJe8qRCnQGBfldqjR'
+DISQUS_PUBLIC_KEY = 'z96ezZPsruloLlzxYqKTZWbyz5irm52UleMz7kM0DcwxTRcbSYtqF20NLpcoYYWh'
+

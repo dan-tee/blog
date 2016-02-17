@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Dan T.'
 SITENAME = 'dan-t.de'
-SITESUBTITLE = 'a journey in data science'
+SITESUBTITLE = 'acknowledging uncertainty'
 #SITEURL = 'http://dan-t.de'
 
 THEME = 'modernscientist-theme'
@@ -19,11 +19,7 @@ TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = 'en'
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['post_stats', 'disqus_static']
-
-DISQUS_SITENAME = 'dan-t-de'
-DISQUS_SECRET_KEY = 'tEUe952AoCPMbyeUC226ImgjLSHc4ERTgm3PdPPgpaB7qCOMJe8qRCnQGBfldqjR'
-DISQUS_PUBLIC_KEY = 'z96ezZPsruloLlzxYqKTZWbyz5irm52UleMz7kM0DcwxTRcbSYtqF20NLpcoYYWh'
+PLUGINS = ['post_stats']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
