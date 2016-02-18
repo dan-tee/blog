@@ -12,7 +12,7 @@ SEARCH_BOX = True
 X_MIN_READ = True
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [('Latest', '/index.html'),
-             ('Overview', '/archives.html'),]
+             ('All', '/archives.html'),]
 
 PATH = 'content'
 TIMEZONE = 'Europe/Berlin'
@@ -32,7 +32,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Edwin Chen', 'http://blog.echen.me/'),
          ('Andrew Gelman', 'http://andrewgelman.com/'),
-         ('Sebastian Raschka', 'http://sebastianraschka.com/blog'),
+         ('John Foreman', 'http://www.john-foreman.com/blog'),
          ('Erik Bernhardsson', 'http://erikbern.com/'),
          ('Coding Horror', 'http://codinghorror.com/'),
          )
