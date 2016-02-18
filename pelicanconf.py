@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Dan T.'
 SITENAME = 'dan-t.de'
-SITESUBTITLE = 'acknowledging uncertainty'
+SITESUBTITLE = 'a practitioners view on data science'
 #SITEURL = 'http://dan-t.de'
 
 THEME = 'modernscientist-theme'
@@ -16,6 +16,7 @@ MENUITEMS = [('Latest', '/index.html'),
 
 PATH = 'content'
 TIMEZONE = 'Europe/Berlin'
+DEFAULT_DATE_FORMAT = '%d %b %Y'
 DEFAULT_LANG = 'en'
 
 PLUGIN_PATHS = ['../pelican-plugins']

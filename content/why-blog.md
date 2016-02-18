@@ -1,22 +1,22 @@
 Title: Why blog?
-Date: 2016-02-17 20:00
-Modified: 2016-02-17 20:00
+Date: 2016-02-18 01:30
+Modified: 2016-02-18 01:30
 Tags: blogging
-Author: Daniel Thomas
+Author: Dan-T
 
 The first blog that really caught me was [Coding Horror](http://http://blog.codinghorror.com) by Jeff Atwood. He is
 also one of the cofounders of [Stack Overflow](http://http://stackoverflow.com/) and
 [Discourse](https://www.discourse.org/). I was super late on the train when I discovered it in 2012. At the time I
 worked as a programmer at an enterprise software company and was constantly frustrated with the shitty code I was
-maintaining and writing myself. So Jeff hit a nerve when wrote in
+maintaining and writing myself. So Jeff hit a nerve when he wrote in
 [the great enterprise software swindle](http://blog.codinghorror.com/the-great-enterprise-software-swindle/):
+
+![Coding Horror](../images/coding-horror.png)
 
 > It's madness. As far as I'm concerned, the word "Enterprise" is now so tainted that it's best used as an epithet.
 > Dude, your software sucks so much, it's enterprise software.
 
-![Pelican](../images/coding-horror.png)
-
-There are many reasons to start a blog. My idol Jeff Atwood aka Coding Horror lists very good ones in
+There are many reasons to start a blog. Jeff Atwood lists a few good ones in
 [how to achieve ultimate blog success in one easy step](http://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/):
 
 > Every time I wrote, I got a little better at writing.
@@ -25,12 +25,19 @@ There are many reasons to start a blog. My idol Jeff Atwood aka Coding Horror li
 > I was slightly more plugged in to the rich software development community all around me.
 
 
-Lately I spent a lot of time on side projects. It's my free time, so I just do the fun part. I make it work 80% in 20%
+Lately I spent a lot of time on side projects. I was competing in the
+[Rossman kaggle challenge](https://www.kaggle.com/c/rossmann-store-sales) and after the challenge I tried to rebuild
+ the winning solution from the winners notes. And I started to play around with Neural Nets using
+ [Keras](http://http://keras.io/).
+
+![Rossmann](../images/rossmann.jpg)
+
+It's my free time, so I just do the fun part. I make it work 80% in 20%
 of the time and hardly document anything. I [sharpen my saw](http://blog.codinghorror.com/sharpening-the-saw/) and
 often reach a state of [flow](https://en.wikipedia.org/wiki/Flow_(psychology)) which already makes it worthwile.
 
-But I know I can get more out of this. For myself and for others. That is why I now start this blog. To start a
-discussion. I'd love to know what you would do differently. Or to help you kickstart your own learning or toy project.
+But I know I can do better. For myself and for others. That is why I started this blog. To start
+conversation with you. To get feedback and learn from you. Or maybe help you kickstart your own side projects.
 
 And this is how it works according to Jeff:
 
