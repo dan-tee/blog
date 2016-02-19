@@ -7,6 +7,7 @@ SITENAME = 'dan-t.de'
 SITESUBTITLE = 'a practitioners view on data science'
 #SITEURL = 'http://dan-t.de'
 
+MARKUP = ('md', 'ipynb')
 THEME = 'modernscientist-theme'
 SEARCH_BOX = True
 X_MIN_READ = True
@@ -19,8 +20,8 @@ TIMEZONE = 'Europe/Berlin'
 DEFAULT_DATE_FORMAT = '%d %b %Y'
 DEFAULT_LANG = 'en'
 
-PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['post_stats']
+PLUGIN_PATHS = ['../pelican-plugins', '../pelican-ipynb']
+PLUGINS = ['post_stats', 'ipynb']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -43,7 +44,7 @@ LINKS = (('Edwin Chen', 'http://blog.echen.me/'),
 SOCIAL = (('Twitter', 'https://twitter.com/Dan__Tee'),)
 
 DEFAULT_PAGINATION = 25
-TYPOGRIFY = True
+TYPOGRIFY = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
