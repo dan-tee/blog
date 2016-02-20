@@ -3,9 +3,10 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Dan T.'
-SITENAME = 'dan-t.de'
+SITENAME = 'Swan Intelligence'
 SITESUBTITLE = 'a practitioners view on data science'
-#SITEURL = 'http://dan-t.de'
+SITELOGO = '/images/black-swan.jpg'
+FAVICON_FILENAME = '/images/black-swan.jpg'
 
 MARKUP = ('md', 'ipynb')
 THEME = 'modernscientist-theme'

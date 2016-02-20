@@ -1,5 +1,13 @@
 body > header {
   background: $header-bg;
+
+  .sitelogo {
+    float: left;
+    height: 77px;
+    margin-top: 7px;
+    margin-right: 14px;
+  }
+
   h1 {
     display: inline-block;
     margin: 0;
