@@ -5,8 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = 'Dan T.'
 SITENAME = 'Swan Intelligence'
 SITESUBTITLE = 'a practitioners view on data science'
-SITELOGO = '/images/black-swan.jpg'
-FAVICON_FILENAME = '/images/black-swan.jpg'
+SITELOGO = '/images/black_swan.jpg'
+FAVICON_FILENAME = '/images/black_swan.jpg'
 
 MARKUP = ('md', 'ipynb')
 THEME = 'modernscientist-theme'

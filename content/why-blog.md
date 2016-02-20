@@ -2,7 +2,6 @@ Title: Why blog?
 Date: 2016-02-18 01:30
 Modified: 2016-02-18 01:30
 Tags: blogging
-Author: Dan-T
 
 The first blog that really caught me was [Coding Horror](http://http://blog.codinghorror.com) by Jeff Atwood. He is
 also one of the cofounders of [Stack Overflow](http://http://stackoverflow.com/) and
