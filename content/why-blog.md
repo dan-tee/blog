@@ -10,7 +10,7 @@ worked as a programmer at an enterprise software company and was constantly frus
 maintaining and writing myself. So Jeff hit a nerve when he wrote in
 [the great enterprise software swindle](http://blog.codinghorror.com/the-great-enterprise-software-swindle/):
 
-![Coding Horror](../images/coding-horror.png)
+![Coding Horror](../images/coding_horror.png)
 
 > It's madness. As far as I'm concerned, the word "Enterprise" is now so tainted that it's best used as an epithet.
 > Dude, your software sucks so much, it's enterprise software.
