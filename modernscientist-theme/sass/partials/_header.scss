@@ -1,27 +1,11 @@
 body > header {
   background: $header-bg;
 
-
   .sitelogo {
     float:left;
-    height: 56px;
-    margin-top: 3px;
+    height: 52px;
+    margin-top: 4px;
     margin-right: 14px;
-  }
-
-  @media only screen and (min-width: 768px) {
-    .sitelogo {
-      height: 64px;
-      margin-top: 4px;
-      margin-right: 14px;
-    }
-  }
-  @media only screen and (min-width: 992px) {
-    .sitelogo {
-      height: 76px;
-      margin-top: 5px;
-      margin-right: 17px;
-    }
   }
 
   h1 {
@@ -33,10 +17,28 @@ body > header {
     }
   }
   h2 {
-    margin: .2em 0 0;
     @extend .sans;
     font-size: 1.1em;
     color: $subtitle-color;
     font-weight: lighter;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .sitelogo {
+      height: 60px;
+      margin-top: 4px;
+      margin-right: 14px;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .sitelogo {
+      height: 71px;
+      margin-top: 6px;
+      margin-right: 20px;
+    }
+
+    .h2 {
+      margin: .2em 0 0;
+    }
   }
 }
