@@ -8,7 +8,7 @@ SITESUBTITLE = 'a practitioners view on data science'
 SITELOGO = '/images/black_swan.jpg'
 FAVICON_FILENAME = '/images/black_swan.jpg'
 
-MARKUP = ('md', 'ipynb')
+#MARKUP = ('md', 'ipynb')
 THEME = 'modernscientist-theme'
 SEARCH_BOX = True
 X_MIN_READ = True
@@ -20,6 +20,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Berlin'
 DEFAULT_DATE_FORMAT = '%d %b %Y'
 DEFAULT_LANG = 'en'
+TIMEZONE = 'Europe/Berlin'
 
 PLUGIN_PATHS = ['../pelican-plugins', '../pelican-ipynb']
 PLUGINS = ['post_stats', 'ipynb']
@@ -42,7 +43,7 @@ LINKS = (('Edwin Chen', 'http://blog.echen.me/'),
 #TWITTER_USER = 'Dan__Tee'
 
 # Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/Dan__Tee'),)
+SOCIAL = (('Twitter', 'https://twitter.com/swanint'),)
 
 DEFAULT_PAGINATION = 25
 TYPOGRIFY = False

@@ -1,11 +1,18 @@
-pre {
+code {
+  font-size: 0.9em
+}
+
+pre, code{
   background:#f7f7f7 top left;
   border:1px solid #ddd;
+  color:#272822;
+}
+
+pre {
   line-height:1.45em;
   font-size:13px;
   margin-bottom:2.1em;
   padding:.8em 1em;
-  color:#272822;
   overflow:auto
 }
 
