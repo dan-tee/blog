@@ -1,0 +1,17 @@
+.prompt {
+  min-width: 0 !important;
+}
+
+.output_area .prompt {
+  min-width: 4.3em !important;
+}
+
+.text_cell {
+  > .prompt.input_prompt {
+    padding: 0 !important;
+  }
+}
+
+.cell.border-box-sizing.text_cell.rendered, .text_cell_render.border-box-sizing.rendered_html {
+  padding: 0;
+}
