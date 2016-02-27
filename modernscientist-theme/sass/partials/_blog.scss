@@ -43,11 +43,19 @@ article {
     font-size: 2.0em; font-style: italic;
     line-height: 1.3em;
   }
+
+
   img, video, .flash-video {
     @extend .flex-content;
     @extend .basic-alignment;
     @include shadow-box;
   }
+
+  .code_cell {
+    @include shadow-box;
+    border-width: 0.2em;
+  }
+
   video, .flash-video { margin: 0 auto 1.5em; }
 
   .flash-video {

@@ -11,7 +11,7 @@ FAVICON_FILENAME = '/images/black_swan.jpg'
 MARKUP = ('md')
 THEME = 'modernscientist-theme'
 SEARCH_BOX = True
-X_MIN_READ = True
+# X_MIN_READ = True
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [('Latest', '/index.html'),
              ('All', '/archives.html'),]
