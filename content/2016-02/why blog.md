@@ -1,4 +1,4 @@
-Title: Why blog?
+Title: Why Blog?
 Date: 2016-02-18 01:30
 Modified: 2016-02-18 01:30
 Tags: blogging
