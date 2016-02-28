@@ -88,5 +88,18 @@ a larger batch size, we will see a monotonously descereasing error.
 
 {% notebook first-steps-with-keras.ipynb cells[6:7] %}
 
+How much does our prediction depend on the initial weights? Turns out a lot. This is the same neuron with different
+initial weigths.
+
+{% notebook first-steps-with-keras.ipynb cells[7:8] %}
+
+The neuron's weights don't get updated during training. This is known as the dying ReLu problem.
+If the initial weights map all our sample points to values smaller than 0,
+the ReLu maps everything to 0. Even with small changes in the weights the result is still 0. This means the gradient
+is 0 and the weights never get updated. MohammedEzz shows you the calculations
+[here](http://datascience.stackexchange.com/questions/5706/what-is-the-dying-relu-problem-in-neural-networks). Usually
+you can mitigate this problem by having a large number of neurons. Some will mostly have non
+vanishing gradients.
+
 With the understanding of a single neuron, you can move on to more interesting examples in my next post
 [Watch a Tiny Neural Network Learn]({filename}./watch a tiny neural network learn.md).
