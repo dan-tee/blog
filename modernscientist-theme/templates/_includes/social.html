@@ -3,15 +3,14 @@
     <section>
         <h1>Social</h1>
         <ul>
-        {% if FEED_RSS %}
-            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate">RSS</a></li>
-        {% endif %}
-        {% if FEED_ATOM %}
-            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate">Atom</a></li>
-        {% endif %}
         {% for name, link in SOCIAL %}
             <li><a href="{{ link }}" target="_blank">{{ name }}</a></li>
         {% endfor %}
+
+        <li>
+            <a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fswanintelligence.com%2Ffeeds%2Fall.atom.xml'
+                target='_blank'>Feedly</a>
+        </li>
         </ul>
     </section>
 {% endif %}
