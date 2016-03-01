@@ -102,4 +102,4 @@ you can mitigate this problem by having a large number of neurons. Some will mos
 vanishing gradients.
 
 With the understanding of a single neuron, you can move on to more interesting examples in my next post
-[Watch a Tiny Neural Network Learn]({filename}./watch a tiny neural network learn.md).
+[Watch a Tiny Neural Network Learn]({filename}./watch tiny neural nets learn.md).

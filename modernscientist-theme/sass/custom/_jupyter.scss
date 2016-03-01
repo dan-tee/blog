@@ -2,8 +2,8 @@
   min-width: 0 !important;
 }
 
-.output_area .prompt {
-  min-width: 4.3em !important;
+.output_area > div.prompt {
+  min-width: 4.6em !important;
 }
 
 .text_cell {
