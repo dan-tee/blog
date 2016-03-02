@@ -1,7 +1,8 @@
 title: About
 
-I'm the Count Count of menstrual cycles at [Clue](http://helloclue.com). I still need to get my work contract changed
-on this.
+I'm the Count Count of menstrual cycles at [Clue](http://helloclue.com). I take care of our cycle prediction
+algorithm and work on giving our users insights from their data. I've also done a fair amount of Business
+Intelligence at Clue.
 
 ![Count Count](../images/count_count.jpg)
 
