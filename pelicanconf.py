@@ -13,6 +13,7 @@ THEME = 'modernscientist-theme'
 SEARCH_BOX = True
 # X_MIN_READ = True
 DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_FEEDS_ON_MENU = False
 MENUITEMS = [('Latest', '/index.html'),
              ('All', '/archives.html'),]
 
