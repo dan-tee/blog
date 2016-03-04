@@ -5,7 +5,7 @@ Status: draft
 
 The web is full of good explanations of machine learning algorithms. Every second
 applicant for a Data Science position seems to have finished the Coursera couse on
-machine learning. If you want to solve real world problems knowing the theory
+machine learning. But if you want to solve real world problems, knowing the theory
 doesn't get you very far. Few data scientists spend their day optimzing machine
 learning algorithms. That's what they do at night, because that's what they
 consider fun.

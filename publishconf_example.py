@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL =
+SITEURL = 'XXX   <-----'
 RELATIVE_URLS = False
 
 FEED_ATOM = 'feeds/all.atom.xml'
@@ -22,10 +22,10 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-GOOGLE_UNIVERSAL_ANALYTICS = ''
+GOOGLE_UNIVERSAL_ANALYTICS = 'XXX    <-----'
 
 PLUGINS += ['disqus_static']
-DISQUS_SITENAME =
-DISQUS_SECRET_KEY =
-DISQUS_PUBLIC_KEY =
+DISQUS_SITENAME = 'XXX   <-----'
+DISQUS_SECRET_KEY = 'XXX   <-----'
+DISQUS_PUBLIC_KEY = 'XXX   <-----'
 
