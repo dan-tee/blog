@@ -10,7 +10,7 @@ worked as a programmer at an enterprise software company and was constantly frus
 maintaining and writing myself. So Jeff hit a nerve when he wrote in
 [the great enterprise software swindle](http://blog.codinghorror.com/the-great-enterprise-software-swindle/):
 
-![Coding Horror]({filename}/images/2016-02/coding_horror.png)
+![Coding Horror]({filename}/images/2016q1/coding_horror.png)
 
 > It's madness. As far as I'm concerned, the word "Enterprise" is now so tainted that it's best used as an epithet.
 > Dude, your software sucks so much, it's enterprise software.
@@ -29,7 +29,7 @@ Lately I spent a lot of time on side projects. I was competing in the
  the winning solution from the winners notes. And I started to play around with Neural Nets using
  [Keras](http://http://keras.io/).
 
-![Rossmann]({filename}/images/2016-02/rossmann.jpg)
+![Rossmann]({filename}/images/2016q1/rossmann.jpg)
 
 It's my free time, so I just do the fun part. I make it work 80% in 20%
 of the time and hardly document anything. I [sharpen my saw](http://blog.codinghorror.com/sharpening-the-saw/) and

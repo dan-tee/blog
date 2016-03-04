@@ -2,6 +2,9 @@ Title: ToDo for the blog
 Date: 2016-02-17 20:00
 Status: draft
 
+## Urgent
+ * Check Videos for Windows and Linux
+
 ## To Do
  * Facebook and Twitter tags
  * CloudFlare
