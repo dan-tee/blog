@@ -25,8 +25,9 @@ DEFAULT_DATE_FORMAT = '%d %b %Y'
 DEFAULT_LANG = 'en'
 
 PLUGIN_PATHS = ['../pelican-plugins', '../pelican-ipynb']
-PLUGINS = ['post_stats', 'liquid_tags.notebook', 'liquid_tags.img', 'liquid_tags.video']
+PLUGINS = ['post_stats', 'sitemap', 'liquid_tags.notebook', 'liquid_tags.img', 'liquid_tags.video']
 EXTRA_HEADER = open('_nb_header.html').read()
+SITEMAP = { 'format': 'xml', 'exclude': ['tag/', 'category/'] }
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
