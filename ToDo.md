@@ -1,10 +1,8 @@
 ## Urgent
 
 ## To Do
- * Sitemap
- *
  * Fix hover cursor on jupyter code
- * impressuma and data privacy declaration
+ * impressum and data privacy declaration
  * Footer should mention tracking
  * Check videos on iPhone
  * Facebook and Twitter tags
