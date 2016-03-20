@@ -1,9 +1,9 @@
 Title: How To Become A Machine Learning Expert In One Simple Step
-Date: 2016-03-18 17:30
-Modified: 2016-08-16 17:30
+Date: 2016-03-20 15:00
+Modified: 2016-03-20 15:00
 Category: Machine Learning
 Tags: Kaggle, Machine Learning, Data Science
-Status: draft
+
 
 The web is full of good explanations of machine learning algorithms. And every second applicant for a
 data science position has finished the
@@ -26,7 +26,7 @@ applications.
 
 Take the people winning [Kaggle competitions](http://kaggle.com)[^2], for example. One might think they
 are the researchers leading in the field of machine learning. But in fact, most of them
-spent a lot of time on Kaggle working with actual data. Check yourself. Kaggle publishes
+spent a lot of time on Kaggle working with actual data. Check by yourself. Kaggle publishes
 [profiles of top kagglers](http://blog.kaggle.com/tag/profiling-top-kagglers/) on their blog.
 
 [^2]: [Kaggle](http://kaggle.com) is the largest site hosting machine learning competitions. Companies
@@ -44,12 +44,17 @@ You need to build overly complex models and squeeze out the last fractions of a
 percentage point. Even the winning model of the Netflix prize
 [has not been used in practice](http://techblog.netflix.com/2012/04/netflix-recommendations-beyond-5-stars.html).
 
-What makes Kaggle such a great resource for learning is the access to various complex data sets.
-You can use them to build models and compare their predictive power to the leaderboard. You have
-a quick perspective on what's possible. You have the Forum, where others share loads of knowledge.
-You can compete in a team and learn how to collaborate on a predictive model.
+What makes Kaggle such a great resource for learning is the access to various complex data sets combined with
+benchmarks on the leaderboard. The leaderboard will give you an outlook on what’s possible and helps you to put
+your model into perspective. This is such a great opportunity. In many machine learning applications it’s hard
+to tell if the data allows for better predictions.
 
 {% img ../../images/2016q1/kaggle.png 700 %}
+
+Another great way to learn on Kaggle is to study [winning solutions](https://github.com/dmlc/xgboost/blob/master/demo/README.md#machine-learning-challenge-winning-solutions).
+Don’t get scared by their complexity. You
+can ignore the stacking of hundreds of models and still learn important tricks from them. Whenever you are stuck
+on a particular data set you can visit the Kaggle Forum where others share loads of knowledge.
 
 Personally, I try to build simple models that still come close to the leaderboard: not necessarily in rank,
 but in prediction error. I usually join competitions where the features have a description. This
@@ -62,9 +67,9 @@ possible explanation. Our brains are not wired to understand infinitesimal proba
 possibility and dream of the reward. It's great that we can trick us into doing something so useful.
 
 John Foreman wrote a great [blog post](http://analyticsmadeskeezy.com/2012/11/05/check-yo-self-5-things-you-should-know-about-data-science-author-note/)
-to put things into perspective. In a job you have to deliver value to the business. This involves finding
-simple models that just give you enough predictive power, marketing your ideas and
-communicating with the rest of the company.
+to put things into perspective. In a job you have to deliver value to the business. This involves many skills
+other than machine learning. For example, finding simple models that have enough predictive power,
+telling the signal from the noise and marketing your ideas to the rest of the company.
 
 Just to avoid confusion: Kaggle is the best place to advance you practical machine learning skills.
 I’m not saying this is all you need to be a good data scientist.
