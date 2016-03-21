@@ -37,7 +37,7 @@ as a concept, it will (of course) take perseverance and many hours of work.
 
 > Participate in Kaggle competitions.
 
-It is easy to get this one wrong though. The price money and the leaderboard could easily
+It is easy to get this one wrong though. The prize money and the leaderboard could easily
 make you think, it is about winning kaggle competitions. The inglorious truth is, winning is a distraction.
 Winning a data science competition needs skills that are not relevant to a data science job.
 You need to build overly complex models and squeeze out the last fractions of a
@@ -61,7 +61,7 @@ but in prediction error. I usually join competitions where the features have a d
 is closer to reality. And in most business applications feature engineering is more important than
 your machine learning model.
 
-My chances of winning price money are as small as in a lottery. Still the money somehow motivates me.
+My chances of winning prize money are as small as in a lottery. Still the money somehow motivates me.
 [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory) gives a
 possible explanation. Our brains are not wired to understand infinitesimal probability. We just see winning as a
 possibility and dream of the reward. It's great that we can trick us into doing something so useful.
