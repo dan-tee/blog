@@ -1,0 +1,22 @@
+<hr>
+<table>
+    <tr>
+        <td width="50%" class="previous-next">
+            {% if article.prev_article %}
+                <a href="{{ SITEURL }}/{{ article.prev_article.url}}">
+                    <h3>&larr; previous post</h3>
+                    <span>{{ article.prev_article.title }}</span>
+                </a>
+            {% endif %}
+        </td>
+
+        <td width="50%" class="previous-next" style="text-align: right">
+            {% if article.next_article %}
+                <a href="{{ SITEURL }}/{{ article.next_article.url}}">
+                    <h3>next post &rarr;</h3>
+                    <span>{{ article.next_article.title }}</span>
+                </a>
+            {% endif %}
+        </td>
+    </tr>
+</table>

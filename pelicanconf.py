@@ -25,7 +25,7 @@ DEFAULT_DATE_FORMAT = '%d %b %Y'
 DEFAULT_LANG = 'en'
 
 PLUGIN_PATHS = ['../pelican-plugins', '../pelican-ipynb']
-PLUGINS = ['post_stats', 'sitemap', 'liquid_tags.notebook', 'liquid_tags.img', 'liquid_tags.video']
+PLUGINS = ['post_stats', 'sitemap', 'liquid_tags.notebook', 'liquid_tags.img', 'liquid_tags.video', 'neighbors']
 EXTRA_HEADER = open('_nb_header.html').read()
 SITEMAP = { 'format': 'xml', 'exclude': ['tag/', 'category/'] }
 
@@ -48,9 +48,12 @@ LINKS = (('Edwin Chen', 'http://blog.echen.me/'),
 
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/swanint'),)
+TWITTER_TWEET_BUTTON = True
 
 DEFAULT_PAGINATION = 25
 TYPOGRIFY = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+MULTI_NEIGHBORS = 2

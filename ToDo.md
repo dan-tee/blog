@@ -1,11 +1,14 @@
 ## Urgent
 
 ## To Do
+  * Check
+
  * Fix hover cursor on jupyter code
  * impressum and data privacy declaration
  * Footer should mention tracking
  * Check videos on iPhone
  * Facebook and Twitter tags
+ * Related posts
 
 
 ## Maybe
