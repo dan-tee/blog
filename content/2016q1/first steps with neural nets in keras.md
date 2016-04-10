@@ -4,6 +4,7 @@ Modified: 2016-03-04 20:00
 Category: Machine Learning
 Tags: Machine Learning, Neural Nets, Keras, Introduction
 
+
 The best way to learn an algorithm is to watch it in action. This is why I created the simplest
 possible neural network in [Keras](http://keras.io). It's just a single neuron. We will train it
 on the simplest nonlinear example.

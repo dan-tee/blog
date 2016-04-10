@@ -3,8 +3,8 @@ body > header {
 
   .sitelogo {
     float:left;
-    height: 52px;
-    margin-top: 4px;
+    height: 54px;
+    margin-top: 6px;
     margin-right: 14px;
   }
 
@@ -24,15 +24,15 @@ body > header {
 
   @media only screen and (min-width: 768px) {
     .sitelogo {
-      height: 60px;
-      margin-top: 4px;
+      height: 63px;
+      margin-top: 7px;
       margin-right: 14px;
     }
   }
   @media only screen and (min-width: 992px) {
     .sitelogo {
-      height: 71px;
-      margin-top: 6px;
+      height: 75px;
+      margin-top: 10px;
       margin-right: 20px;
     }
 

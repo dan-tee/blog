@@ -8,7 +8,7 @@ SITESUBTITLE = 'a practitioners view on data science'
 SITELOGO = '/images/black_swan.jpg'
 FAVICON_FILENAME = '/images/black_swan.jpg'
 
-MARKUP = ('md')
+MARKUP = ('md', 'rst')
 THEME = 'modernscientist-theme'
 SEARCH_BOX = True
 # X_MIN_READ = True
@@ -16,6 +16,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_FEEDS_ON_MENU = False
 MENUITEMS = [('Latest', '/index.html'),
              ('All', '/archives.html'),]
+SUMMARY_MAX_LENGTH = 50
 
 PATH = 'content'
 STATIC_PATHS= ['images', 'videos']

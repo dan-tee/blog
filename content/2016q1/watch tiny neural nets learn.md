@@ -3,9 +3,7 @@ Date: 2016-03-01 23:30
 Modified: 2016-03-04 20:00
 Category: Machine Learning
 Tags: Machine Learning, Neural Nets, Keras, Introduction
-Summary: In this post I'll show you some animations of tiny neural nets learning. Finding the right neural net for a
-         given problem needs experience and experimentation. I'll show you the steps and missteps it took me to find
-         a good net to predict a noisy sine function.
+
 
 In this post I'll show you some animations of tiny neural nets learning. Finding the right neural net for a
 given problem needs experience and experimentation. I'll show you the steps and missteps it took me to find

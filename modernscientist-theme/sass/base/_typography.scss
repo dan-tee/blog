@@ -28,6 +28,7 @@ body > header h2 {
 }
 
 body {
+  font-size: 1.1em;
   line-height: 1.5em;
   color: $text-color;
   @extend .serif;
@@ -39,7 +40,7 @@ h1 {
 }
 
 @media only screen and (min-width: 992px) {
-  body { font-size: 1.15em; }
+  body { font-size: 1.25em; }
 }
 
 #{headings()}{
@@ -63,7 +64,7 @@ h5, section h4, section section h3 {
 h6, section h5, section section h4, section section section h3 {
   font-size: .8em;
 }
-p, blockquote, ul, ol { margin-bottom: 1.5em; }
+p, blockquote, ul, ol, .entry-content > img { margin-bottom: 1.5em; }
 
 a {
   text-decoration: none;

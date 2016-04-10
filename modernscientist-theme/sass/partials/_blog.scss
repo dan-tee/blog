@@ -29,12 +29,26 @@ article {
       //background: $img-border bottom left repeat-x;
     }
   }
+
   h2 {
     padding-top: 0.8em;
     background: $img-border top left repeat-x;
   }
-  .entry-content & h2:first-child, header + h2 { padding-top: 0; }
+
+  .entry-title{
+    margin-bottom: 0.25em;
+  }
+
+  .entry-content & h2:first-child, header + h2 {
+    padding: 0;
+  }
+
+  div.entry-content {
+    padding: 0;
+  }
+
   h2:first-child, header + h2 { background: none; }
+
   .feature {
     padding-top: .5em;
     margin-bottom: 1em;
